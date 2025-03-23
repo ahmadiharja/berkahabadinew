@@ -18,6 +18,9 @@ import heroImagevb from "../assets/images/homepagevbpro.png";
 import heroImagedk from "../assets/images/homepagedk.png";
 import vbLogo from "../assets/images/vblogohorizontal.png";
 import dkLogo from "../assets/images/dklogohorizontal.png";
+import vbLogogray from "../assets/images/vblogohorizontal_gray.png";
+import dkLogogray from "../assets/images/dklogohorizontal_gray.png";
+
 
 import NavigationMenu from "../components/layout/NavigationMenu";
 
@@ -71,7 +74,7 @@ const HomePage = () => {
                       src={
                         selectedBrand === 1
                           ? vbLogo
-                          : "/src/assets/images/vblogohorizontal_gray.png"
+                          : vblogogray
                       }
                       alt="VB Pro"
                       className="w-full h-auto"
@@ -85,7 +88,7 @@ const HomePage = () => {
                       src={
                         selectedBrand === 2
                           ? dkLogo
-                          : "/src/assets/images/dklogohorizontal_gray.png"
+                          : dklogogray
                       }
                       alt="Drajat Karunia"
                       className="w-full h-auto"

@@ -21,7 +21,6 @@ import dkLogo from "../assets/images/dklogohorizontal.png";
 import vbLogogray from "../assets/images/vblogohorizontal_gray.png";
 import dkLogogray from "../assets/images/dklogohorizontal_gray.png";
 
-
 import NavigationMenu from "../components/layout/NavigationMenu";
 
 const HomePage = () => {
@@ -71,11 +70,7 @@ const HomePage = () => {
                     className="p-2 rounded"
                   >
                     <img
-                      src={
-                        selectedBrand === 1
-                          ? vbLogo
-                          : vblogogray
-                      }
+                      src={selectedBrand === 1 ? vbLogo : vbLogogray}
                       alt="VB Pro"
                       className="w-full h-auto"
                     />
@@ -85,11 +80,7 @@ const HomePage = () => {
                     className="p-2 rounded"
                   >
                     <img
-                      src={
-                        selectedBrand === 2
-                          ? dkLogo
-                          : dklogogray
-                      }
+                      src={selectedBrand === 2 ? dkLogo : dkLogogray}
                       alt="Drajat Karunia"
                       className="w-full h-auto"
                     />

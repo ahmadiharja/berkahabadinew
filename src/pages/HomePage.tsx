@@ -20,6 +20,7 @@ import vbLogo from "../assets/images/vblogohorizontal.png";
 import dkLogo from "../assets/images/dklogohorizontal.png";
 import vbLogogray from "../assets/images/vblogohorizontal_gray.png";
 import dkLogogray from "../assets/images/dklogohorizontal_gray.png";
+import homebanner from "../assets/images/affiliatebanner.png";
 
 import NavigationMenu from "../components/layout/NavigationMenu";
 
@@ -202,7 +203,7 @@ const HomePage = () => {
             }}
           >
             <img
-              src="/src/assets/images/affiliatebanner.png"
+              src={homebanner}
               alt="Pribumi Banner"
               className="w-full h-full object-cover rounded-lg"
             />
